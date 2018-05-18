@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<style type="text/css">
+		.btn-success{
+			background: pink;
+			
+		}
+		.btn-success:hover{
+			background: hotpink;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+	<h1>This is a Jumbotron</h1>
+	<p>wing adrd adfefsdfue sfejdlejd sdjfnsjfjd djfnfdjknje sefkjsdnfjuecf djfnsdsjkdfnhuwej skjfnkjfnjd</p>
+	<button class="btn btn-success btn-lg">Hi There!</button>
+	</div>
+
+	<h1>Bootstrap Basics</h1>
+	<button class="btn btn-success btn-sm">Click Me!</button>
+	<button class="btn btn-success btn-sm active">Click Me!</button>
+	<button class="btn btn-success btn-sm" disabled="disabled">Click Me!</button>
+	<a href="http:www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap</a>
+
+	<!-- form-group-->
+	<!-- form-control --> 
+
+	<!-- Normal Form -->
+	<form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputFile">File input</label>
+	    <input type="file" id="exampleInputFile">
+	    <p class="help-block">Example block-level help text here.</p>
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Check me out
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+	<!-- inline-form -->
+	<form class="form-inline">
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+	  </div>
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputPassword3">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Remember me
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Sign in</button>
+	</form>
+
+</div>
+
+</body>
+</html>
