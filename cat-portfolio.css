@@ -117,8 +117,25 @@ section #contact {
 
 }
 
+.link-color{
+	color:#d6b9df;
+}
+
 #heading{
 	font-size: 5em;
+}
+
+
+
+.navbar-toggle{
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
 #port{
